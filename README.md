@@ -51,6 +51,23 @@ If your site uses custom PHP endpoints in the root (e.g., `/api.php`), the recon
 
 ---
 
+---
+
+## Non-WordPress / Corporate / API (Free Plan)
+
+If you're protecting a non-WordPress application (corporate site, Laravel, Node.js API, custom backend),
+use the dedicated 3-rule ruleset:
+
+See: `rules/ruleset-non-wordpress-api.md`
+
+Recommended order:
+
+1) Exploit & Recon Block (Block)  
+2) Hidden File Block (Block)  
+3) SQLi Probe Challenge (Managed Challenge)
+
+Optional: add Rate Limiting for `/api/` endpoints via Cloudflare UI.
+
 ## License
 
 MIT © 2026 BigDesigner (see `LICENSE`).
