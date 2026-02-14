@@ -5,7 +5,7 @@ Fits within 3 Custom Rules.
 
 ---
 
-## 1) Exploit & Recon Block (Block)
+## 1) Exploit & Recon Block (Action: Block)
 
 ```cf
 (
@@ -35,7 +35,7 @@ Fits within 3 Custom Rules.
 
 ---
 
-## 2) Hidden File Block (Block)
+## 2) Hidden File Block (Action: Block)
 
 ```cf
 (
@@ -46,7 +46,7 @@ Fits within 3 Custom Rules.
 
 ---
 
-## 3) SQLi Probe Challenge (Managed Challenge)
+## 3) SQLi Probe Challenge (Action: Managed Challenge)
 
 ```cf
 (

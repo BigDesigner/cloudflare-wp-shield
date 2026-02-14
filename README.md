@@ -68,6 +68,8 @@ Recommended order:
 
 Optional: add Rate Limiting for `/api/` endpoints via Cloudflare UI.
 
+Copy/paste expressions from: **[`rules/ruleset-non-wordpress-api.md`](rules/ruleset-non-wordpress-api.md)**
+
 ## License
 
 MIT © 2026 BigDesigner (see `LICENSE`).
